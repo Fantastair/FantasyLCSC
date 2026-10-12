@@ -10,7 +10,7 @@
 .\scripts\install.ps1 -AddToPath
 ```
 
-需要 Git、Rust 1.92+ 与 MSVC C++ 构建工具。脚本编译 release、检查版本、安装 EXE，并将 `skills/easyeda-engineering` 安装到用户 `.codex/skills/`。已存在的 `personal-eda-style` 和 `easyeda-agent-access` 会完整移到安装目录的 `skill-backups/`；当前合并 skill 的旧版本更新时也保留备份。技能目录发布失败时恢复已移动技能，不递归删除技能。
+需要 Git、Rust 1.92+ 与 MSVC C++ 构建工具。脚本编译 release、检查版本、安装 EXE，并将 `skills/easyeda-engineering` 安装到用户 `.codex/skills/`。已存在的 `personal-eda-style` 和 `easyeda-agent-access` 会完整移到安装目录的 `skill-backups/`；当前合并 skill 更新时先复制备份，再原位更新文件，避免发现器持有目录句柄时无法重命名。技能目录发布失败时恢复已移动的原技能，不递归删除用户技能。
 
 `-AddToPath` 只将固定安装目录追加到用户 PATH；新开的终端可直接使用 `fantasy-lcsc`。当前已经打开的终端可使用绝对路径，或重新打开。其他位置可显式 `-Destination`、`-SkillDirectory`。`-SkipBuild` 用已构建的 release 文件安装。
 

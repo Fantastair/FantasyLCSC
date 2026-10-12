@@ -67,20 +67,27 @@ try {
             New-Item -ItemType Directory -Force -Path $backupRoot | Out-Null
             $backup = Join-Path $backupRoot $name
             if (!$backup.StartsWith($installRoot.TrimEnd('\') + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'Backup path escapes installation root' }
-            Move-Item -LiteralPath $resolvedOld -Destination $backup
+            if ($name -eq 'easyeda-engineering') {
+                # Active skill discovery may hold its directory open on Windows.
+                Copy-Item -LiteralPath $resolvedOld -Destination $backup -Recurse
+            } else { Move-Item -LiteralPath $resolvedOld -Destination $backup }
             $movedSkills += @{ original = $oldSkill; backup = $backup }
         }
     }
     if (!(Resolve-Path -LiteralPath $stagedSkill).Path.StartsWith($installRoot.TrimEnd('\') + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'Staged skill escapes installation root' }
-    Move-Item -LiteralPath $stagedSkill -Destination $installedSkill
+    if (Test-Path -LiteralPath $installedSkill -PathType Container) {
+        Get-ChildItem -LiteralPath $stagedSkill -Force | Copy-Item -Destination $installedSkill -Recurse -Force
+    } else { Move-Item -LiteralPath $stagedSkill -Destination $installedSkill }
 } catch {
     foreach ($entry in $movedSkills) {
         if (!(Test-Path -LiteralPath $entry.original) -and (Test-Path -LiteralPath $entry.backup)) { Move-Item -LiteralPath $entry.backup -Destination $entry.original }
     }
     throw
 }
-# The staging parent is empty after publishing the skill; do not recursively delete it.
-Remove-Item -LiteralPath $stagingRoot
+# Only delete the uniquely-created staging directory after checking its absolute root.
+$resolvedStaging = (Resolve-Path -LiteralPath $stagingRoot).Path
+if (!$resolvedStaging.StartsWith($installRoot.TrimEnd('\') + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'Cleanup path escapes installation root' }
+Remove-Item -LiteralPath $resolvedStaging -Recurse -Force
 
 $installedExe = Join-Path $installRoot 'fantasy-lcsc.exe'
 $temporaryExe = Join-Path $installRoot ('.fantasy-lcsc-' + [guid]::NewGuid().ToString('N') + '.exe')
