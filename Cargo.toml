@@ -1,0 +1,20 @@
+[package]
+name = "fantasy-lcsc"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.92"
+description = "立创商城查询与原始 STEP 模型下载工具"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.6", features = ["derive", "env"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+regex = "1"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+tempfile = "3"
+tungstenite = "0.29"
+url = "2"
+[profile.release]
+lto = "thin"
+strip = true

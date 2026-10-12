@@ -1,0 +1,3 @@
+interface:
+  display_name: "立创 EDA 选型与设计"
+  short_description: "统一使用 CLI 选型与下载模型，接入嘉立创 EDA 并沿用个人原理图和 PCB 习惯"

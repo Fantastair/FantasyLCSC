@@ -1,0 +1,243 @@
+{
+  "webData": {
+    "isPlusDiscount": false,
+    "productRecord": {
+      "theRatio": 1,
+      "productArrange": "托盘",
+      "productModel": "STM32F103C8T6",
+      "stockNumber": 87,
+      "encapsulationModel": "LQFP-48(7x7)",
+      "hasStockNow": "yes",
+      "productCycle": "normal",
+      "smtLabel": "SMT扩展库",
+      "remark": "特性：Arm 32位Cortex-M3 CPU内核。最高72 MHz频率，在0等待状态内存访问时性能为1.25 DMIPS/MHz (DPrystone 2.1)。单周期乘法和硬件除法。64或128 KB的闪存。20 KB的SRAM。2.0至3.6V的应用电源和I/O",
+      "designReferenceVOS": [
+        {
+          "designReferenceName": "网友设计参考",
+          "designReferenceUrl": "https://oshwhub.com/recommend/STM32F103C8T6_C8734",
+          "designReferenceTitle": "基于该芯片设计合集"
+        }
+      ],
+      "productUnit": "个",
+      "luceneBreviaryImageUrls": "https://alimg.szlcsc.com/upload/public/product/breviary/20221228/D3008A398FA06367EA3460DD1D7FAEF0.jpg<$>https://alimg.szlcsc.com/upload/public/product/breviary/20221228/48931F989143DDD4DD336B3CCDCE5617.jpg<$>https://alimg.szlcsc.com/upload/public/product/breviary/20221228/5046D75A3AAEA7DB77659C4F58253EE4.jpg",
+      "productMinEncapsulationUnit": "托盘",
+      "productName": "主流增强型ARM Cortex-M3 MCU，具有64 KB Flash、72 MHz CPU、电机控制、USB和CAN",
+      "returnCouponDesc": [],
+      "productGradePlateId": "74",
+      "bomMainUuid": "2B303E915A9AD0594097FF3D13EF2B9E",
+      "isShowQuotedPriceBtn": false,
+      "isOldBatchClearance": false,
+      "validStockNumber": 87,
+      "fileHtmlPath": "https://static.szlcsc.com/upload/public/html/sku/1722233568270",
+      "fileTypeVOList": [
+        {
+          "detailVOList": [
+            {
+              "fileName": "wj115614",
+              "fileUrl": "/upload/public/pdf/source/20220812/8363ACEC51AD55ECEB84799464F7CB85.pdf"
+            }
+          ],
+          "fileType": "pdf_property"
+        },
+        {
+          "detailVOList": [
+            {
+              "fileName": "全量通用_ROHS认证_ST(意法半导体).pdf",
+              "fileUrl": "/upload/public/pdf/source/20260509/5411F3E4F9AA6BF72B2F7B74FB06A492.pdf"
+            },
+            {
+              "fileName": "全量通用_REACH认证_ST(意法半导体).pdf",
+              "fileUrl": "/upload/public/pdf/source/20251016/2785C0F46A387FADF175CD20E938CA27.pdf"
+            },
+            {
+              "fileName": "全量通用_ROHS认证(英文版)_ST(意法半导体).pdf",
+              "fileUrl": "/upload/public/pdf/source/20230627/C23F61E6488485DE9E7D34E0E43BADCD.pdf"
+            },
+            {
+              "fileName": "全量通用_ROHS认证(英文版)_ST(意法半导体).pdf",
+              "fileUrl": "/upload/public/pdf/source/20241126/175D27B848240B08A4FE8B716DE9A2F2.pdf"
+            },
+            {
+              "fileName": "STM32F103C8T6_REACH认证(英文版)_ST(意法半导体).pdf",
+              "fileUrl": "/upload/public/pdf/source/20250221/B9138BE0BC04B61A15D4A4B293728C98.pdf"
+            },
+            {
+              "fileName": "STM32F103C8T6_ROHS认证(英文版)_ST(意法半导体).pdf",
+              "fileUrl": "/upload/public/pdf/source/20250221/B375C27BE5E31EF94A9447C40D25FE0A.pdf"
+            },
+            {
+              "fileName": "ST(意法半导体)_STM32F103C8T6_材料声明.pdf",
+              "fileUrl": "/upload/public/pdf/source/20250206/C181C6132BE4E2D457229B7CA9693D2C.pdf"
+            }
+          ],
+          "fileType": "certification_data_property"
+        }
+      ],
+      "isEnvironment": true,
+      "isReturnCoupon": false,
+      "productType": "单片机(MCU/MPU/SOC)",
+      "encaptionPrice": 1435,
+      "minBuyNumber": 1,
+      "minWholeNumber": 250,
+      "saleRuleGroupId": 10039,
+      "convesionRatio": 1,
+      "productId": "9243",
+      "productGradePlateName": "ST(意法半导体)",
+      "eccnCode": "3A991A2",
+      "productWeight": 0.00021,
+      "usableTransitNum": 0,
+      "isDisplay": true,
+      "pdfDESProductId": "2FA3B73CEB662785",
+      "productCode": "C8734",
+      "breviaryImageUrl": "https://alimg.szlcsc.com/upload/public/product/breviary/20221228/D3008A398FA06367EA3460DD1D7FAEF0.jpg",
+      "isShowPrice": true,
+      "productMinEncapsulationNumber": 250,
+      "inEdaWhiteList": false,
+      "productStockStatus": "yes",
+      "lcedaProjectUrl": "https://lceda.cn/editor#project_id=b5ce77c7e6934ad6b203697ca6b29b57",
+      "productUnsealVendition": "yes"
+    },
+    "limitNumberEncapPrice": "100",
+    "limitNumberPrice": "",
+    "track_zone": "i_s",
+    "gdWarehouseStockNumber": 12,
+    "hasPlusCoupon": false,
+    "isCouponUnavailable": false,
+    "productCouponList": [
+      {
+        "couponDiscount": 0,
+        "couponAmount": 9,
+        "productCode": "C8734",
+        "useChannel": "all",
+        "couponType": "freight",
+        "isFreeExpress": false,
+        "couponId": 45789,
+        "couponThresholdMoney": 9.9
+      }
+    ],
+    "smtStockNumber": 172593,
+    "isStudentDiscount": false,
+    "fileHtmlPath": "https://static.szlcsc.com/upload/public/html/sku/1722233568270",
+    "isEnvironment": true,
+    "isMro": false,
+    "jsWarehouseStockNumber": 0,
+    "isGroupProduct": false,
+    "totalStockNumber": 12,
+    "pdfFileDetailVO": {
+      "fileName": "wj115614",
+      "urlSign": "?Expires=4070880000&OSSAccessKeyId=LTAIJDIkh7KmGS1H&Signature=YHPZCwsnInNZZFaqiKU2Ko7gSJg%3D&response-content-disposition=attachment%3Bfilename%3DC8734_%25E5%258D%2595%25E7%2589%2587%25E6%259C%25BA%2528MCU-MPU-SOC%2529_STM32F103C8T6_%25E8%25A7%2584%25E6%25A0%25BC%25E4%25B9%25A6_WJ115614.PDF",
+      "fileUrl": "/upload/public/pdf/source/20220812/8363ACEC51AD55ECEB84799464F7CB85.pdf"
+    },
+    "rohsLabal": "RoHS",
+    "productWelfareList": [],
+    "isShowSmtSubsidyInfo": true,
+    "brandVO": {
+      "brandName": "ST(意法半导体)",
+      "brandId": 74
+    },
+    "recentlySalesCount": 12055,
+    "paramList": [
+      {
+        "parameterName": "CPU内核",
+        "parameterCode": "param_13056",
+        "parameterDetailValue": "ARM Cortex-M3",
+        "parameterValue": "ARM Cortex-M3"
+      },
+      {
+        "parameterName": "CPU最大主频",
+        "parameterCode": "param_31011_n",
+        "parameterDetailValue": "72MHz",
+        "parameterValue": "72MHz"
+      },
+      {
+        "parameterName": "CPU位数",
+        "parameterCode": "param_31012",
+        "parameterDetailValue": "32 Bit",
+        "parameterValue": "32 Bit"
+      },
+      {
+        "parameterName": "程序存储容量",
+        "parameterCode": "param_31013_n",
+        "parameterDetailValue": "64KB",
+        "parameterValue": "64KB"
+      },
+      {
+        "parameterName": "程序存储器类型",
+        "parameterCode": "param_31014",
+        "parameterDetailValue": "FLASH",
+        "parameterValue": "FLASH"
+      },
+      {
+        "parameterName": "RAM容量",
+        "parameterCode": "param_31015_n",
+        "parameterDetailValue": "20KB",
+        "parameterValue": "20KB"
+      },
+      {
+        "parameterName": "EEPROM容量",
+        "parameterCode": "param_31021_n",
+        "parameterDetailValue": "-",
+        "parameterValue": "-"
+      },
+      {
+        "parameterName": "I/O数量",
+        "parameterCode": "param_31017_n",
+        "parameterDetailValue": "37",
+        "parameterValue": "37"
+      },
+      {
+        "parameterName": "ADC(位数)",
+        "parameterCode": "param_31018_n",
+        "parameterDetailValue": "12bit",
+        "parameterValue": "12bit"
+      },
+      {
+        "parameterName": "振荡器类型",
+        "parameterCode": "param_33087",
+        "parameterDetailValue": "内置",
+        "parameterValue": "内置"
+      },
+      {
+        "parameterName": "工作电压",
+        "parameterCode": "param_31025_s",
+        "parameterDetailValue": "2V~3.6V",
+        "parameterValue": "2V~3.6V"
+      },
+      {
+        "parameterName": "工作温度",
+        "parameterCode": "param_31030_st",
+        "parameterDetailValue": "-40℃~+85℃",
+        "parameterValue": "-40℃~+85℃"
+      }
+    ],
+    "currentCatalog": {
+      "catalogName": "单片机(MCU/MPU/SOC)",
+      "mainCategoryName": "",
+      "isForbid": false,
+      "catalogId": 11329,
+      "groupProductCount": 63138,
+      "catalogCode": "013047",
+      "catalogNameEn": "Microcontrollers (MCU/MPU/SOC)",
+      "mainCategoryCode": "",
+      "sort": 10,
+      "hasIntro": false,
+      "parentId": 470
+    },
+    "isHot": true,
+    "isFavorite": false
+  },
+  "price": 5.74,
+  "productPdfDesc": {
+    "productId": 9243,
+    "productCode": "C8734",
+    "isMroProduct": false,
+    "productIntroVO": null,
+    "productPDFDescVO": {
+      "fileCode": "wj115614",
+      "pdfApplicationAreas": "",
+      "productFeatures": "- Arm® 32位Cortex®-M3 CPU内核，最高频率72 MHz，0等待状态内存访问时性能为1.25 DMIPS/MHz（Dhrystone 2.1），支持单周期乘法和硬件除法\n - 存储器：64或128 KB Flash内存、20 KB SRAM\n - 时钟、复位和电源管理：应用电源和I/O电压范围2.0至3.6 V；POR、PDR和可编程电压检测器（PVD）；4至16 MHz晶体振荡器；内部8 MHz工厂校准RC；内部40 kHz RC；CPU时钟用PLL；带校准功能的32 kHz RTC振荡器\n - 低功耗：睡眠、停止和待机模式；VBAT电源用于RTC和备份寄存器\n - 2个12位、1 µs ADC（最多16通道）：转换范围0至3.6 V；双采样保持能力；温度传感器\n - DMA：7通道DMA控制器，支持外设包括定时器、ADC、SPI、I2C和USART\n - 最多80个快速I/O端口：26/37/51/80个I/O，均可映射到16个外部中断向量，几乎所有I/O都耐受5 V\n - 封装类型：VFQFPN36（6×6 mm）、UFQFPN48（7×7 mm）、BGA100（10×10 mm）、UFBGA100（7×7 mm）、BGA64（5×5 mm）、LQFP100（14×14 mm）、LQFP64（10×10 mm）、LQFP48（7×7 mm）\n - 调试模式：串行线调试（SWD）和JTAG接口\n - 七个定时器：三个16位定时器（每个最多4个IC/OC/PWM或脉冲计数器，支持正交编码器输入）；16位电机控制PWM定时器（带死区生成和紧急停止）；两个看门狗定时器（独立和窗口）；SysTick定时器（24位向下计数器）\n - 最多九个通信接口：最多两个I2C接口（SMBus/PMBus®）；最多三个USART（ISO 7816接口、LIN、IrDA能力、调制解调器控制）；最多两个SPI（18 Mbit/s）；CAN接口（2.0B Active）；USB 2.0全速接口\n - CRC计算单元，96位ID；封装为ECOPACK®",
+      "productIntro": "中等密度性能系列基于Arm®的32位MCU，配备64或128 KB Flash、USB、CAN、7个定时器、2个ADC和9个通信接口。",
+      "fileLabel": "英文规格书"
+    }
+  }
+}

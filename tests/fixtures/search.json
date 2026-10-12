@@ -1,0 +1,1255 @@
+{
+  "code": 200,
+  "msg": null,
+  "result": {
+    "totalCount": null,
+    "searchResult": {
+      "productRecordList": [
+        {
+          "productVO": {
+            "productId": "8427",
+            "productSignId": null,
+            "productCode": "C7950",
+            "productTypeCode": "516",
+            "productName": "单电源双运算放大器",
+            "productType": "运算放大器",
+            "productUnit": "个",
+            "venditionUnit": null,
+            "convesionRatio": 10,
+            "theRatio": 10,
+            "productGradePlateId": "94",
+            "productGradePlateName": "onsemi(安森美)",
+            "productGradePlateNameWithoutHighlight": null,
+            "encapsulationModel": "SOIC-8",
+            "productModel": "LM358DR2G",
+            "minBuyNumber": 1,
+            "maxBuyNumber": -1,
+            "remark": "双运算放大器 LM Series 0.6 V/us 32 V SMT Single Supply Quad Operational Amplifier - SOIC-8",
+            "breviaryImageUrl": "https://alimg.szlcsc.com/upload/public/product/breviary/20221228/04622479F23A09BAEC13E127FB954926.jpg",
+            "bigImageUrl": "https://alimg.szlcsc.com/upload/public/product/middle/20221228/04622479F23A09BAEC13E127FB954926.jpg",
+            "luceneBreviaryImageUrls": "https://alimg.szlcsc.com/upload/public/product/breviary/20221228/04622479F23A09BAEC13E127FB954926.jpg<$>https://alimg.szlcsc.com/upload/public/product/breviary/20221228/8D858B19A6CC0FE7D34A0C2E7A2B262C.jpg<$>https://alimg.szlcsc.com/upload/public/product/breviary/20221228/D9052D581013F677F3A4509381F3E1FB.jpg",
+            "stockNumber": 648167,
+            "productPriceList": [
+              {
+                "productPriceRecordId": null,
+                "productId": null,
+                "startPurchasedNumber": 1,
+                "endPurchasedNumber": 9,
+                "productPrice": 0.3352,
+                "spNumber": 1,
+                "epNumber": 9,
+                "thePrice": 0.3352,
+                "epEncapNum": 0,
+                "fixedEpEncapNum": null,
+                "isPriceLess": false,
+                "isEncapPriceLess": false,
+                "showMessageFlag": false,
+                "isShowEpEncapNum": false,
+                "minEncapsulationUnitPrice": 838,
+                "addStockPrice": null,
+                "maxCalcStockPrice": null,
+                "overseaPrice": null
+              },
+              {
+                "productPriceRecordId": null,
+                "productId": null,
+                "startPurchasedNumber": 10,
+                "endPurchasedNumber": 29,
+                "productPrice": 0.2653,
+                "spNumber": 10,
+                "epNumber": 29,
+                "thePrice": 0.2653,
+                "epEncapNum": 0,
+                "fixedEpEncapNum": null,
+                "isPriceLess": false,
+                "isEncapPriceLess": false,
+                "showMessageFlag": false,
+                "isShowEpEncapNum": false,
+                "minEncapsulationUnitPrice": 663.25,
+                "addStockPrice": null,
+                "maxCalcStockPrice": null,
+                "overseaPrice": null
+              },
+              {
+                "productPriceRecordId": null,
+                "productId": null,
+                "startPurchasedNumber": 30,
+                "endPurchasedNumber": 249,
+                "productPrice": 0.2293,
+                "spNumber": 30,
+                "epNumber": 249,
+                "thePrice": 0.2293,
+                "epEncapNum": 0,
+                "fixedEpEncapNum": null,
+                "isPriceLess": false,
+                "isEncapPriceLess": false,
+                "showMessageFlag": false,
+                "isShowEpEncapNum": false,
+                "minEncapsulationUnitPrice": 573.25,
+                "addStockPrice": null,
+                "maxCalcStockPrice": null,
+                "overseaPrice": null
+              },
+              {
+                "productPriceRecordId": null,
+                "productId": null,
+                "startPurchasedNumber": 250,
+                "endPurchasedNumber": 499,
+                "productPrice": 0.1984,
+                "spNumber": 250,
+                "epNumber": 499,
+                "thePrice": 0.1984,
+                "epEncapNum": 0,
+                "fixedEpEncapNum": null,
+                "isPriceLess": false,
+                "isEncapPriceLess": false,
+                "showMessageFlag": true,
+                "isShowEpEncapNum": false,
+                "minEncapsulationUnitPrice": 496,
+                "addStockPrice": null,
+                "maxCalcStockPrice": null,
+                "overseaPrice": null
+              },
+              {
+                "productPriceRecordId": null,
+                "productId": null,
+                "startPurchasedNumber": 500,
+                "endPurchasedNumber": 999,
+                "productPrice": 0.188,
+                "spNumber": 500,
+                "epNumber": 999,
+                "thePrice": 0.188,
+                "epEncapNum": 0,
+                "fixedEpEncapNum": null,
+                "isPriceLess": false,
+                "isEncapPriceLess": false,
+                "showMessageFlag": true,
+                "isShowEpEncapNum": false,
+                "minEncapsulationUnitPrice": 470,
+                "addStockPrice": null,
+                "maxCalcStockPrice": null,
+                "overseaPrice": null
+              },
+              {
+                "productPriceRecordId": null,
+                "productId": null,
+                "startPurchasedNumber": 1000,
+                "endPurchasedNumber": -1,
+                "productPrice": 0.181,
+                "spNumber": 1000,
+                "epNumber": -1,
+                "thePrice": 0.181,
+                "epEncapNum": 0,
+                "fixedEpEncapNum": null,
+                "isPriceLess": false,
+                "isEncapPriceLess": false,
+                "showMessageFlag": true,
+                "isShowEpEncapNum": false,
+                "minEncapsulationUnitPrice": 452.5,
+                "addStockPrice": null,
+                "maxCalcStockPrice": null,
+                "overseaPrice": null
+              }
+            ],
+            "productMinEncapsulationUnit": "圆盘",
+            "productMinEncapsulationNumber": 2500,
+            "deliveryTimeWayDays": null,
+            "productMinEncapsulationUnitCode": "pan",
+            "agentProductReceiveWeeks": null,
+            "agentProductReceiveNumberText": null,
+            "validStockNumber": 64816,
+            "blankBoardId": null,
+            "hasStockNow": "yes",
+            "pdfDESProductId": "B17064C3B9DCEDA4",
+            "productLevelList": null,
+            "sampleStockNumber": 0,
+            "hasSampleRule": "no",
+            "saleRuleGroupId": 10039,
+            "hltProductName": null,
+            "hltEncapsulationModel": null,
+            "hltProductGradePlateName": null,
+            "productUnsealVendition": "yes",
+            "shiftStatus": null,
+            "batchStockLimit": 1000,
+            "isOldBatch": false,
+            "oldBatchProductList": null,
+            "lcedaProjectUrl": "https://lceda.cn/editor#id=|4ab4a3947f7a4525b4417f4b480456e1|922af21b41794dc9a1e34f5d3c606b76",
+            "productStockStatus": "yes",
+            "vendorCode": null,
+            "isPromotionDiscount": false,
+            "isReturnCoupon": false,
+            "returnCouponDesc": [],
+            "isShowQuotedPriceBtn": false,
+            "defaultAddressBelongWarehouse": null,
+            "recentlySalesCount": 3790,
+            "jsWarehouseStockNumber": null,
+            "gdWarehouseStockNumber": null,
+            "hkStockNumber": 0,
+            "productHkDollerPriceList": [
+              {
+                "productPriceRecordId": null,
+                "productId": null,
+                "startPurchasedNumber": 1,
+                "endPurchasedNumber": 12500,
+                "productPrice": 0.035,
+                "spNumber": 1,
+                "epNumber": 12500,
+                "thePrice": 0.035,
+                "epEncapNum": null,
+                "fixedEpEncapNum": null,
+                "isPriceLess": null,
+                "isEncapPriceLess": null,
+                "showMessageFlag": null,
+                "isShowEpEncapNum": null,
+                "minEncapsulationUnitPrice": null,
+                "addStockPrice": null,
+                "maxCalcStockPrice": null,
+                "overseaPrice": null
+              },
+              {
+                "productPriceRecordId": null,
+                "productId": null,
+                "startPurchasedNumber": 15000,
+                "endPurchasedNumber": 25000,
+                "productPrice": 0.034,
+                "spNumber": 15000,
+                "epNumber": 25000,
+                "thePrice": 0.034,
+                "epEncapNum": null,
+                "fixedEpEncapNum": null,
+                "isPriceLess": null,
+                "isEncapPriceLess": null,
+                "showMessageFlag": null,
+                "isShowEpEncapNum": null,
+                "minEncapsulationUnitPrice": null,
+                "addStockPrice": null,
+                "maxCalcStockPrice": null,
+                "overseaPrice": null
+              },
+              {
+                "productPriceRecordId": null,
+                "productId": null,
+                "startPurchasedNumber": 27500,
+                "endPurchasedNumber": -1,
+                "productPrice": 0.0334,
+                "spNumber": 27500,
+                "epNumber": -1,
+                "thePrice": 0.0334,
+                "epEncapNum": null,
+                "fixedEpEncapNum": null,
+                "isPriceLess": null,
+                "isEncapPriceLess": null,
+                "showMessageFlag": null,
+                "isShowEpEncapNum": null,
+                "minEncapsulationUnitPrice": null,
+                "addStockPrice": null,
+                "maxCalcStockPrice": null,
+                "overseaPrice": null
+              }
+            ],
+            "hkProductStockStatus": "no",
+            "sourcePartId": null,
+            "isPresent": false,
+            "selfProductCode": null,
+            "selfProductId": null,
+            "lcBookProductVO": null,
+            "fileTypeVOList": [
+              {
+                "fileType": "pdf_property",
+                "detailVOList": [
+                  {
+                    "fileName": "wj197166",
+                    "fileUrl": "/upload/public/pdf/source/20150124/1457707258826.pdf",
+                    "linkAddress": null
+                  }
+                ]
+              },
+              {
+                "fileType": "certification_data_property",
+                "detailVOList": [
+                  {
+                    "fileName": "全量通用_ROHS认证_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20260309/FC2D524CA8628E2EF4895A6619609B27.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "全量通用_ROHS认证(英文版)_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231018/9D3BC8369B1FC88092C713AB410297E3.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "全量通用_REACH认证(英文版)_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20230922/A789E9DC5D2C4F4A6603EBCC45B28BA2.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "全量通用_REACH认证(英文版)_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231219/3A331C72D0E9ECA043D7A7AA66E2469F.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "全量通用_ROHS认证(英文版)_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20250206/D226715E99054515544686858BC42B1D.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "全量通用_REACH认证(英文版)_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20250206/D21CC9C718C1DDC983B1BA32E0290086.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "安森美半导体产品_RoHS认证(英文版)_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20250611/CC26D5CD1FC74F5A238DF00E73543288.pdf",
+                    "linkAddress": null
+                  }
+                ]
+              },
+              {
+                "fileType": "industry_information",
+                "detailVOList": [
+                  {
+                    "fileName": "功率因数校正（PFC）手册_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231211/D2A9973EA1099ABA67E277F217065CE8.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "先进的功率因素校正知识_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231211/74AA9592939589457E528951ED09E413.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "在临界传导模式下工作的功率因数校正级_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231212/862F2C77AF6BCD5C76E794EB49A12DC0.pdf",
+                    "linkAddress": null
+                  }
+                ]
+              },
+              {
+                "fileType": "reference_designs_property",
+                "detailVOList": [
+                  {
+                    "fileName": "采用有源钳位反激式拓扑的高密度AC-DC电源介绍_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231211/94D7148235BC13E7A1BDEBC36F47DCC1.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "DC-DC变换器反馈与控制_onsemi(安森美).PDF",
+                    "fileUrl": "/upload/public/pdf/source/20240126/534378F3C093D679762B3E3B4EF58A48.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "ESD器件的数据表参数解释_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20240223/E08A039EB42372B8F1F7EFC14F50245D.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "300W_宽电源_PFC级_NCP1654驱动_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231211/016977F310E2C703D778B3DEF9DAAD20.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "NCP1654_800W_无桥PFC_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231211/4C860037D1E5ED44E0B53E6F3E7674A9.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "NCP1654_高效255W_ATX电源参考设计_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231211/9BABE12908731727893C1D98E4803231.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "NCP1654_驱动的PFC级补偿_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231211/569A7397241CA4D0DF2B671BCC083F3B.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "使用NCP1654_设计连续导通模式PFC级的四个关键步骤_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20231211/6AB1059627BFF48EFFE5E6286A6761C9.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "用NCP1608_实现功率因数校正应用指南_onsemi(安森美).PDF",
+                    "fileUrl": "/upload/public/pdf/source/20231212/FDE60C91A875BB85D82137D3DBF3E958.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "SICMOSFET栅极驱动优化教程_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20240126/BFB3B2A607EC742B2E73E7BF701D2F58.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "光电晶体管电路的设计基础_英文_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20240201/1ECB663B2AA136E78914C6041A786644.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "光耦合器输入驱动电路_中文_onsemi(安森美).pdf",
+                    "fileUrl": "/upload/public/pdf/source/20240201/D73D6EF22EFB954B80F0A29771AB5709.pdf",
+                    "linkAddress": null
+                  },
+                  {
+                    "fileName": "CAN总线的EMI_ESD保护解决方案_onsemi(安森美).PDF",
+                    "fileUrl": null,
+                    "linkAddress": "https://www.onsemi.cn/download/application-notes/pdf/and8169-d.pdf"
+                  }
+                ]
+              }
+            ],
+            "smtLabel": "SMT基础库",
+            "isMarkAutoOffShelves": null,
+            "productCycle": "normal",
+            "futuresPriceShowType": "all",
+            "isShowPrice": true,
+            "isOldBatchClearance": false,
+            "usableTransitNum": 0,
+            "isDisplayUsableTransitNum": false,
+            "purchaseTagNames": null
+          },
+          "mroProductTypeCode": null,
+          "mroCatalogLevel3Id": null,
+          "mroCatalogLevel3Name": null,
+          "lightMroCatalogLevel3Name": null,
+          "lightProductCode": "C7950",
+          "lightCatalogName": "运算放大器",
+          "lightProductName": "单电源双运算放大器",
+          "lightBrandName": "onsemi(安森美)",
+          "lightStandard": "SOIC-8",
+          "lightProductModel": "<SPAN CLASS='LUCENE_HIGHLIGHT_CLASS'>LM358</SPAN>DR2G",
+          "lightProductIntro": "双运算放大器 LM Series 0.6 V/us 32 V SMT Single Supply Quad Operational Amplifier - SOIC-8",
+          "lightOther": null,
+          "remarkPrefix": null,
+          "remarkPrefixTitle": "双运算放大器 LM Series 0.6 V/us 32 V SMT Single Supply Quad Operational Amplifier - SOIC-8",
+          "paramLinkedMap": {
+            "放大器数": "2",
+            "输入失调电压(Vos)": "7mV",
+            "输入失调电压温漂(Vos TC)": "7uV/℃",
+            "输入偏置电流(Ib)": "45nA"
+          },
+          "lightModelKeyword": null,
+          "priceDiscount": null,
+          "isHot": true,
+          "isMro": false,
+          "replaceProductId": null,
+          "couponAmount": 9,
+          "couponThresholdMoney": 9.9,
+          "isUseConfig": false,
+          "isFreeExpress": false,
+          "couponType": "freight",
+          "couponDiscount": null,
+          "listProductDiscount": null,
+          "isMultiDiscount": null,
+          "productDiscountList": null,
+          "isProductRebate": null,
+          "isGroupProduct": true,
+          "groupActivityProductVO": {
+            "groupActivityProductId": 412783,
+            "groupActivityId": 82,
+            "productId": 8427,
+            "productCode": "C7950",
+            "groupType": "no_condition_group",
+            "productCostPrice": null,
+            "additionalPurchaseLimit": "min_packet_number",
+            "minPacketNumber": 2500,
+            "theRatio": 10,
+            "groupPrice": 0.162,
+            "minBuyNumber": 55000,
+            "groupValidHour": 336,
+            "productDeliveryDay": 8,
+            "groupStatus": "-",
+            "sort": 194,
+            "groupTotalNumber": 300000,
+            "belongWarehouse": "zh",
+            "groupBeginTime": "2026-10-09 13:50:26",
+            "groupEndTime": "2026-10-23 23:59:59",
+            "isForbid": false,
+            "isDelete": false,
+            "createUserId": null,
+            "createUserName": null,
+            "groupCustomerCount": 0,
+            "groupOrderProductCount": 0,
+            "productUpTime": null,
+            "virtualGroupPercentage": null,
+            "virtualPeopleNumber": null,
+            "outerRemark": null,
+            "depositRatio": 0.3,
+            "minWholeNumber": 2500,
+            "saleStatus": "sale",
+            "recommendCode": "TL2610090414",
+            "isCouponUnavailable": false,
+            "hasPlusCoupon": false,
+            "isShowLtMroCouponLabel": false,
+            "ltProductCouponVO": {
+              "couponAmount": 9,
+              "couponThresholdMoney": 9.9,
+              "isFreeExpress": false,
+              "couponType": "freight",
+              "couponDiscount": null,
+              "isUseConfig": false
+            },
+            "surplusRecommendNumber": 300000,
+            "isShow": true,
+            "recommendLevel": "S",
+            "productBatchCode": "26+"
+          },
+          "isSecondKill": null,
+          "secondKillProductVO": null,
+          "isFavorite": null,
+          "isPlusDiscount": false,
+          "isStudentDiscount": false,
+          "isReturnCoupon": false,
+          "isPromotionDiscount": false,
+          "returnCouponDesc": [],
+          "isClearance": null,
+          "hasPlusCoupon": null,
+          "isGuidePrice": null,
+          "productRebateList": null,
+          "rebate": null,
+          "isMerge": null,
+          "firstProductRebateMoney": null,
+          "totalStockNumber": 648160,
+          "jsWarehouseStockNumber": 0,
+          "gdWarehouseStockNumber": 648160,
+          "isSampleLimitBuy": false,
+          "smtStockNumber": 740643,
+          "isShowSmtSubsidyInfo": true,
+          "isRemoveMoreChannel": null,
+          "discountPriceMaxDiscount": null,
+          "productWelfareList": null,
+          "isShowFactoryPrice": false,
+          "isCouponUnavailable": false,
+          "isShowMroCouponLabel": null,
+          "rohsLabal": "RoHS",
+          "maybeLook": null,
+          "rs_log": "{\"rs_uid\":\"=cTMx4CO2EjL0kTMugTN\",\"rs_g\":\"base\",\"rs_s\":\"yETLwETL2IDMygTNz0ET\"}"
+        }
+      ],
+      "gradePlateGroup": [
+        {
+          "label": "TI(德州仪器)",
+          "value": "100",
+          "count": 48,
+          "type": null,
+          "firstLetter": "T",
+          "imgKey": null
+        },
+        {
+          "label": "ST(意法半导体)",
+          "value": "74",
+          "count": 31,
+          "type": null,
+          "firstLetter": "S",
+          "imgKey": null
+        },
+        {
+          "label": "Tudi(钍地半导体)",
+          "value": "16038",
+          "count": 28,
+          "type": null,
+          "firstLetter": "T",
+          "imgKey": null
+        },
+        {
+          "label": "onsemi(安森美)",
+          "value": "94",
+          "count": 14,
+          "type": null,
+          "firstLetter": "O",
+          "imgKey": null
+        },
+        {
+          "label": "HGSEMI(华冠)",
+          "value": "11543",
+          "count": 11,
+          "type": null,
+          "firstLetter": "H",
+          "imgKey": null
+        },
+        {
+          "label": "ElecSuper(静芯)",
+          "value": "14038",
+          "count": 11,
+          "type": null,
+          "firstLetter": "E",
+          "imgKey": null
+        },
+        {
+          "label": "TECH PUBLIC(台舟)",
+          "value": "12241",
+          "count": 8,
+          "type": null,
+          "firstLetter": "T",
+          "imgKey": null
+        },
+        {
+          "label": "MSKSEMI(美森科)",
+          "value": "12667",
+          "count": 8,
+          "type": null,
+          "firstLetter": "M",
+          "imgKey": null
+        },
+        {
+          "label": "XBLW(芯伯乐)",
+          "value": "15584",
+          "count": 7,
+          "type": null,
+          "firstLetter": "X",
+          "imgKey": null
+        },
+        {
+          "label": "ROHM(罗姆)",
+          "value": "170",
+          "count": 7,
+          "type": null,
+          "firstLetter": "R",
+          "imgKey": null
+        },
+        {
+          "label": "HGC(深圳汉芯)",
+          "value": "13175",
+          "count": 5,
+          "type": null,
+          "firstLetter": "H",
+          "imgKey": null
+        },
+        {
+          "label": "3PEAK(思瑞浦)",
+          "value": "926",
+          "count": 5,
+          "type": null,
+          "firstLetter": "P",
+          "imgKey": null
+        },
+        {
+          "label": "Gainsil(聚洵)",
+          "value": "11403",
+          "count": 4,
+          "type": null,
+          "firstLetter": "G",
+          "imgKey": null
+        },
+        {
+          "label": "R+O(宏嘉诚)",
+          "value": "15352",
+          "count": 4,
+          "type": null,
+          "firstLetter": "R",
+          "imgKey": null
+        },
+        {
+          "label": "UTC(友顺)",
+          "value": "207",
+          "count": 4,
+          "type": null,
+          "firstLetter": "U",
+          "imgKey": null
+        },
+        {
+          "label": "IDCHIP(英锐芯)",
+          "value": "11772",
+          "count": 3,
+          "type": null,
+          "firstLetter": "I",
+          "imgKey": null
+        },
+        {
+          "label": "HXY MOSFET(华轩阳电子)",
+          "value": "13437",
+          "count": 3,
+          "type": null,
+          "firstLetter": "H",
+          "imgKey": null
+        },
+        {
+          "label": "HTC",
+          "value": "262",
+          "count": 3,
+          "type": null,
+          "firstLetter": "H",
+          "imgKey": null
+        },
+        {
+          "label": "RUNIC(润石)",
+          "value": "11584",
+          "count": 2,
+          "type": null,
+          "firstLetter": "R",
+          "imgKey": null
+        },
+        {
+          "label": "Slkor(萨科微)",
+          "value": "11608",
+          "count": 2,
+          "type": null,
+          "firstLetter": "S",
+          "imgKey": null
+        },
+        {
+          "label": "DOWO(东沃)",
+          "value": "11716",
+          "count": 2,
+          "type": null,
+          "firstLetter": "D",
+          "imgKey": null
+        },
+        {
+          "label": "UMW(友台半导体)",
+          "value": "11853",
+          "count": 2,
+          "type": null,
+          "firstLetter": "U",
+          "imgKey": null
+        },
+        {
+          "label": "Gcore(扬州国芯)",
+          "value": "12196",
+          "count": 2,
+          "type": null,
+          "firstLetter": "G",
+          "imgKey": null
+        },
+        {
+          "label": "GR(国睿)",
+          "value": "15555",
+          "count": 2,
+          "type": null,
+          "firstLetter": "G",
+          "imgKey": null
+        },
+        {
+          "label": "TDSEMIC(拓电半导体)",
+          "value": "16094",
+          "count": 2,
+          "type": null,
+          "firstLetter": "T",
+          "imgKey": null
+        },
+        {
+          "label": "ChipNobo(无边界)",
+          "value": "16995",
+          "count": 2,
+          "type": null,
+          "firstLetter": "C",
+          "imgKey": null
+        },
+        {
+          "label": "GMIC(绿微)",
+          "value": "18721",
+          "count": 2,
+          "type": null,
+          "firstLetter": "G",
+          "imgKey": null
+        },
+        {
+          "label": "GAOGE MICROCHIP(高格芯微)",
+          "value": "27480",
+          "count": 2,
+          "type": null,
+          "firstLetter": "G",
+          "imgKey": null
+        },
+        {
+          "label": "SGMICRO(圣邦微)",
+          "value": "280",
+          "count": 2,
+          "type": null,
+          "firstLetter": "S",
+          "imgKey": null
+        },
+        {
+          "label": "BIVAR",
+          "value": "900",
+          "count": 2,
+          "type": null,
+          "firstLetter": "B",
+          "imgKey": null
+        },
+        {
+          "label": "HKT(合科泰)",
+          "value": "11439",
+          "count": 1,
+          "type": null,
+          "firstLetter": "H",
+          "imgKey": null
+        },
+        {
+          "label": "HT(金誉)",
+          "value": "11450",
+          "count": 1,
+          "type": null,
+          "firstLetter": "H",
+          "imgKey": null
+        },
+        {
+          "label": "WPMtek(维攀)",
+          "value": "11474",
+          "count": 1,
+          "type": null,
+          "firstLetter": "W",
+          "imgKey": null
+        },
+        {
+          "label": "HX(恒佳兴)",
+          "value": "11726",
+          "count": 1,
+          "type": null,
+          "firstLetter": "H",
+          "imgKey": null
+        },
+        {
+          "label": "BLUE ROCKET(蓝箭)",
+          "value": "11727",
+          "count": 1,
+          "type": null,
+          "firstLetter": "B",
+          "imgKey": null
+        },
+        {
+          "label": "PUOLOP(迪浦)",
+          "value": "11763",
+          "count": 1,
+          "type": null,
+          "firstLetter": "P",
+          "imgKey": null
+        },
+        {
+          "label": "KEXIN(科信)",
+          "value": "11914",
+          "count": 1,
+          "type": null,
+          "firstLetter": "K",
+          "imgKey": null
+        },
+        {
+          "label": "PJSEMI(平晶微)",
+          "value": "12029",
+          "count": 1,
+          "type": null,
+          "firstLetter": "P",
+          "imgKey": null
+        },
+        {
+          "label": "XINLUDA(信路达)",
+          "value": "12211",
+          "count": 1,
+          "type": null,
+          "firstLetter": "X",
+          "imgKey": null
+        },
+        {
+          "label": "GOODWORK(固得沃克)",
+          "value": "12245",
+          "count": 1,
+          "type": null,
+          "firstLetter": "G",
+          "imgKey": null
+        },
+        {
+          "label": "COSINE(科山芯创)",
+          "value": "12262",
+          "count": 1,
+          "type": null,
+          "firstLetter": "C",
+          "imgKey": null
+        },
+        {
+          "label": "JSMSEMI(杰盛微)",
+          "value": "12313",
+          "count": 1,
+          "type": null,
+          "firstLetter": "J",
+          "imgKey": null
+        },
+        {
+          "label": "晶扬电子",
+          "value": "12581",
+          "count": 1,
+          "type": null,
+          "firstLetter": "J",
+          "imgKey": null
+        },
+        {
+          "label": "YONGYUTAI(永裕泰)",
+          "value": "13025",
+          "count": 1,
+          "type": null,
+          "firstLetter": "Y",
+          "imgKey": null
+        },
+        {
+          "label": "KTP(科泰普)",
+          "value": "15592",
+          "count": 1,
+          "type": null,
+          "firstLetter": "K",
+          "imgKey": null
+        },
+        {
+          "label": "AOTE(奥特)",
+          "value": "15783",
+          "count": 1,
+          "type": null,
+          "firstLetter": "A",
+          "imgKey": null
+        },
+        {
+          "label": "LX(灵星芯微)",
+          "value": "15920",
+          "count": 1,
+          "type": null,
+          "firstLetter": "L",
+          "imgKey": null
+        },
+        {
+          "label": "JTD(晶泰达)",
+          "value": "17201",
+          "count": 1,
+          "type": null,
+          "firstLetter": "J",
+          "imgKey": null
+        },
+        {
+          "label": "DIODES(美台)",
+          "value": "296",
+          "count": 1,
+          "type": null,
+          "firstLetter": "D",
+          "imgKey": null
+        },
+        {
+          "label": "CJ(江苏长电/长晶)",
+          "value": "64",
+          "count": 1,
+          "type": null,
+          "firstLetter": "C",
+          "imgKey": null
+        },
+        {
+          "label": "ZHHXDZ(海芯电子)",
+          "value": "825",
+          "count": 1,
+          "type": null,
+          "firstLetter": "Z",
+          "imgKey": null
+        },
+        {
+          "label": "FM(富满)",
+          "value": "932",
+          "count": 1,
+          "type": null,
+          "firstLetter": "F",
+          "imgKey": null
+        }
+      ],
+      "encapsulationGroup": [
+        {
+          "label": "SOP-8",
+          "value": null,
+          "count": 124,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "TSSOP-8",
+          "value": null,
+          "count": 32,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "MSOP-8",
+          "value": null,
+          "count": 28,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "DIP-8",
+          "value": null,
+          "count": 26,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "SOT-23-5",
+          "value": null,
+          "count": 6,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "TSSOP-14",
+          "value": null,
+          "count": 6,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "VSSOP-8",
+          "value": null,
+          "count": 6,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "SOP-14",
+          "value": null,
+          "count": 4,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "SOT-23-8",
+          "value": null,
+          "count": 4,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "DFN-8(2x2)",
+          "value": null,
+          "count": 3,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "BGA-8(1.3x1.3)",
+          "value": null,
+          "count": 2,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "DFN-8(1.5x1.5)",
+          "value": null,
+          "count": 1,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "DFN-8(3x3)",
+          "value": null,
+          "count": 1,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "SOP-8-175mil",
+          "value": null,
+          "count": 1,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "SOP-8-208mil",
+          "value": null,
+          "count": 1,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "SSOP-8",
+          "value": null,
+          "count": 1,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "TO-5-8",
+          "value": null,
+          "count": 1,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "-",
+          "value": null,
+          "count": 3,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        }
+      ],
+      "arrangeGroup": [
+        {
+          "label": "编带",
+          "value": null,
+          "count": 211,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "管装",
+          "value": null,
+          "count": 35,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "袋装",
+          "value": null,
+          "count": 4,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        }
+      ],
+      "labelGroup": [
+        {
+          "label": "smt扩展库",
+          "value": null,
+          "count": 231,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "smt基础库",
+          "value": null,
+          "count": 1,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        }
+      ],
+      "authenticationGroup": [
+        {
+          "label": "RoHS认证",
+          "value": null,
+          "count": 152,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        }
+      ],
+      "catalogGroup": [
+        {
+          "label": "运算放大器",
+          "value": "516",
+          "count": 248,
+          "type": null,
+          "firstLetter": "Y",
+          "imgKey": null
+        },
+        {
+          "label": "光电附件",
+          "value": "958",
+          "count": 2,
+          "type": null,
+          "firstLetter": "G",
+          "imgKey": null
+        }
+      ],
+      "parentCatalogGroup": [
+        {
+          "label": "运算放大器/比较器",
+          "value": "515",
+          "count": 248,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        },
+        {
+          "label": "光电器件",
+          "value": "450",
+          "count": 2,
+          "type": null,
+          "firstLetter": null,
+          "imgKey": null
+        }
+      ],
+      "querySortBySign": "0",
+      "productCatalogList": [],
+      "queryProductGradePlateId": "",
+      "queryProductStandard": "",
+      "queryProductArrange": "",
+      "queryProductTypeCode": "",
+      "queryBeginPrice": "",
+      "queryEndPrice": "",
+      "queryProductLabel": "",
+      "queryProductAuthentication": "",
+      "currePage": 1,
+      "pageSize": 30,
+      "totalCount": 250,
+      "countPage": 9,
+      "showOutSockProduct": "1",
+      "standardUrlPrefix": "0_1",
+      "standardUrlPostfix": "0-2-null-0-1",
+      "parmeterValueList": [],
+      "couponAmount": null,
+      "couponThresholdMoney": null,
+      "isMultiDiscount": null,
+      "currentExchangeRate": 6.6903,
+      "hasHkProduct": true,
+      "searchEngineProcess": {
+        "preprocessedContent": "LM358",
+        "judgeProcess": null,
+        "qpJson": null,
+        "recallType": null,
+        "isNormal": null,
+        "searchValidWord": "lm358 ",
+        "searchValidWordLight": null,
+        "hasModelSuggest": null,
+        "againJudgeHasResult": null,
+        "hasReplaceKeyword": null,
+        "judgeSuccessType": null,
+        "reposition": null,
+        "mappingCodeSet": [],
+        "keywordNotFullMatch": false,
+        "replacementIdSet": [],
+        "rerankMap": {
+          "hasOvs": true
+        }
+      },
+      "reposition": null,
+      "globalSearchKeyword": "LM358",
+      "globalCurrentCatalog": null,
+      "searchType": null,
+      "searchSource": "main_so"
+    },
+    "aggregateResultVO": null,
+    "rs_log": "{\"rs_g\":\"base\",\"rs_s\":\"yETLwETL2IDMygTNz0ET\",\"rs_uid\":\"=cTMx4CO2EjL0kTMugTN\"}",
+    "track_zone": "s_s__\"LM358\"",
+    "matchBrand": null,
+    "matchCatalog": null,
+    "catalogFlag": "yes",
+    "catalogGroupJson": "[{\"count\":248,\"firstLetter\":\"Y\",\"label\":\"运算放大器\",\"value\":\"516\"},{\"count\":2,\"firstLetter\":\"G\",\"label\":\"光电附件\",\"value\":\"958\"}]",
+    "stockUnitMap": "{\"jia\":\"架\",\"gongjin\":\"公斤\",\"xiang\":\"箱\",\"juan\":\"卷\",\"ben\":\"本\",\"zhang\":\"张\",\"dai\":\"袋\",\"jin\":\"斤\",\"bao\":\"包\",\"ke1\":\"颗\",\"pingmi\":\"平米\",\"pen\":\"盆\",\"zang\":\"盏\",\"pai\":\"排\",\"mi\":\"米\",\"pan\":\"盘\",\"jian\":\"件\",\"tai\":\"台\",\"liang\":\"辆\",\"xiaozhi\":\"支\",\"kuai\":\"块\",\"tao\":\"套\",\"pingfang\":\"平方\",\"guan\":\"管\",\"tong1\":\"筒\",\"suang\":\"双\",\"zu\":\"组\",\"ba\":\"把\",\"tong\":\"桶\",\"fu1\":\"付\",\"kun\":\"捆\",\"ping\":\"瓶\",\"fu\":\"副\",\"ding\":\"顶\",\"gen\":\"根\",\"pian\":\"片\",\"bu\":\"部\",\"tiao\":\"条\",\"ka\":\"卡\",\"ke\":\"棵\",\"kg\":\"千克\",\"ge\":\"个\",\"ci\":\"次\",\"guanzi\":\"罐\",\"sheng\":\"升\",\"dui\":\"对\",\"zhi\":\"只\",\"he\":\"盒\",\"li\":\"粒\"}",
+    "gradePlateGroupJson": "[{\"count\":48,\"firstLetter\":\"T\",\"label\":\"TI(德州仪器)\",\"value\":\"100\"},{\"count\":31,\"firstLetter\":\"S\",\"label\":\"ST(意法半导体)\",\"value\":\"74\"},{\"count\":28,\"firstLetter\":\"T\",\"label\":\"Tudi(钍地半导体)\",\"value\":\"16038\"},{\"count\":14,\"firstLetter\":\"O\",\"label\":\"onsemi(安森美)\",\"value\":\"94\"},{\"count\":11,\"firstLetter\":\"H\",\"label\":\"HGSEMI(华冠)\",\"value\":\"11543\"},{\"count\":11,\"firstLetter\":\"E\",\"label\":\"ElecSuper(静芯)\",\"value\":\"14038\"},{\"count\":8,\"firstLetter\":\"T\",\"label\":\"TECH PUBLIC(台舟)\",\"value\":\"12241\"},{\"count\":8,\"firstLetter\":\"M\",\"label\":\"MSKSEMI(美森科)\",\"value\":\"12667\"},{\"count\":7,\"firstLetter\":\"X\",\"label\":\"XBLW(芯伯乐)\",\"value\":\"15584\"},{\"count\":7,\"firstLetter\":\"R\",\"label\":\"ROHM(罗姆)\",\"value\":\"170\"},{\"count\":5,\"firstLetter\":\"H\",\"label\":\"HGC(深圳汉芯)\",\"value\":\"13175\"},{\"count\":5,\"firstLetter\":\"P\",\"label\":\"3PEAK(思瑞浦)\",\"value\":\"926\"},{\"count\":4,\"firstLetter\":\"G\",\"label\":\"Gainsil(聚洵)\",\"value\":\"11403\"},{\"count\":4,\"firstLetter\":\"R\",\"label\":\"R+O(宏嘉诚)\",\"value\":\"15352\"},{\"count\":4,\"firstLetter\":\"U\",\"label\":\"UTC(友顺)\",\"value\":\"207\"},{\"count\":3,\"firstLetter\":\"I\",\"label\":\"IDCHIP(英锐芯)\",\"value\":\"11772\"},{\"count\":3,\"firstLetter\":\"H\",\"label\":\"HXY MOSFET(华轩阳电子)\",\"value\":\"13437\"},{\"count\":3,\"firstLetter\":\"H\",\"label\":\"HTC\",\"value\":\"262\"},{\"count\":2,\"firstLetter\":\"R\",\"label\":\"RUNIC(润石)\",\"value\":\"11584\"},{\"count\":2,\"firstLetter\":\"S\",\"label\":\"Slkor(萨科微)\",\"value\":\"11608\"},{\"count\":2,\"firstLetter\":\"D\",\"label\":\"DOWO(东沃)\",\"value\":\"11716\"},{\"count\":2,\"firstLetter\":\"U\",\"label\":\"UMW(友台半导体)\",\"value\":\"11853\"},{\"count\":2,\"firstLetter\":\"G\",\"label\":\"Gcore(扬州国芯)\",\"value\":\"12196\"},{\"count\":2,\"firstLetter\":\"G\",\"label\":\"GR(国睿)\",\"value\":\"15555\"},{\"count\":2,\"firstLetter\":\"T\",\"label\":\"TDSEMIC(拓电半导体)\",\"value\":\"16094\"},{\"count\":2,\"firstLetter\":\"C\",\"label\":\"ChipNobo(无边界)\",\"value\":\"16995\"},{\"count\":2,\"firstLetter\":\"G\",\"label\":\"GMIC(绿微)\",\"value\":\"18721\"},{\"count\":2,\"firstLetter\":\"G\",\"label\":\"GAOGE MICROCHIP(高格芯微)\",\"value\":\"27480\"},{\"count\":2,\"firstLetter\":\"S\",\"label\":\"SGMICRO(圣邦微)\",\"value\":\"280\"},{\"count\":2,\"firstLetter\":\"B\",\"label\":\"BIVAR\",\"value\":\"900\"},{\"count\":1,\"firstLetter\":\"H\",\"label\":\"HKT(合科泰)\",\"value\":\"11439\"},{\"count\":1,\"firstLetter\":\"H\",\"label\":\"HT(金誉)\",\"value\":\"11450\"},{\"count\":1,\"firstLetter\":\"W\",\"label\":\"WPMtek(维攀)\",\"value\":\"11474\"},{\"count\":1,\"firstLetter\":\"H\",\"label\":\"HX(恒佳兴)\",\"value\":\"11726\"},{\"count\":1,\"firstLetter\":\"B\",\"label\":\"BLUE ROCKET(蓝箭)\",\"value\":\"11727\"},{\"count\":1,\"firstLetter\":\"P\",\"label\":\"PUOLOP(迪浦)\",\"value\":\"11763\"},{\"count\":1,\"firstLetter\":\"K\",\"label\":\"KEXIN(科信)\",\"value\":\"11914\"},{\"count\":1,\"firstLetter\":\"P\",\"label\":\"PJSEMI(平晶微)\",\"value\":\"12029\"},{\"count\":1,\"firstLetter\":\"X\",\"label\":\"XINLUDA(信路达)\",\"value\":\"12211\"},{\"count\":1,\"firstLetter\":\"G\",\"label\":\"GOODWORK(固得沃克)\",\"value\":\"12245\"},{\"count\":1,\"firstLetter\":\"C\",\"label\":\"COSINE(科山芯创)\",\"value\":\"12262\"},{\"count\":1,\"firstLetter\":\"J\",\"label\":\"JSMSEMI(杰盛微)\",\"value\":\"12313\"},{\"count\":1,\"firstLetter\":\"J\",\"label\":\"晶扬电子\",\"value\":\"12581\"},{\"count\":1,\"firstLetter\":\"Y\",\"label\":\"YONGYUTAI(永裕泰)\",\"value\":\"13025\"},{\"count\":1,\"firstLetter\":\"K\",\"label\":\"KTP(科泰普)\",\"value\":\"15592\"},{\"count\":1,\"firstLetter\":\"A\",\"label\":\"AOTE(奥特)\",\"value\":\"15783\"},{\"count\":1,\"firstLetter\":\"L\",\"label\":\"LX(灵星芯微)\",\"value\":\"15920\"},{\"count\":1,\"firstLetter\":\"J\",\"label\":\"JTD(晶泰达)\",\"value\":\"17201\"},{\"count\":1,\"firstLetter\":\"D\",\"label\":\"DIODES(美台)\",\"value\":\"296\"},{\"count\":1,\"firstLetter\":\"C\",\"label\":\"CJ(江苏长电/长晶)\",\"value\":\"64\"},{\"count\":1,\"firstLetter\":\"Z\",\"label\":\"ZHHXDZ(海芯电子)\",\"value\":\"825\"},{\"count\":1,\"firstLetter\":\"F\",\"label\":\"FM(富满)\",\"value\":\"932\"}]",
+    "encapsulationGroupJson": "[{\"count\":124,\"label\":\"SOP-8\"},{\"count\":32,\"label\":\"TSSOP-8\"},{\"count\":28,\"label\":\"MSOP-8\"},{\"count\":26,\"label\":\"DIP-8\"},{\"count\":6,\"label\":\"SOT-23-5\"},{\"count\":6,\"label\":\"TSSOP-14\"},{\"count\":6,\"label\":\"VSSOP-8\"},{\"count\":4,\"label\":\"SOP-14\"},{\"count\":4,\"label\":\"SOT-23-8\"},{\"count\":3,\"label\":\"-\"},{\"count\":3,\"label\":\"DFN-8(2x2)\"},{\"count\":2,\"label\":\"BGA-8(1.3x1.3)\"},{\"count\":1,\"label\":\"DFN-8(1.5x1.5)\"},{\"count\":1,\"label\":\"DFN-8(3x3)\"},{\"count\":1,\"label\":\"SOP-8-175mil\"},{\"count\":1,\"label\":\"SOP-8-208mil\"},{\"count\":1,\"label\":\"SSOP-8\"},{\"count\":1,\"label\":\"TO-5-8\"}]",
+    "arrangeGroupJson": "[{\"count\":211,\"label\":\"编带\"},{\"count\":35,\"label\":\"管装\"},{\"count\":4,\"label\":\"袋装\"}]",
+    "labelGroupJson": "[{\"count\":231,\"label\":\"smt扩展库\"},{\"count\":1,\"label\":\"smt基础库\"}]",
+    "authenticationGroupJson": "[{\"count\":152,\"label\":\"RoHS认证\"}]",
+    "relaCatalogListJson": "[]",
+    "overseaCloseBanner": null,
+    "openEnquiry": null,
+    "soSellOff": null,
+    "findAndStockContent": "LM358",
+    "greekCharTipList": null,
+    "showBuzVo": {
+      "aisoType": null,
+      "aisoButton": "hide"
+    },
+    "keywordJumpUrl": null
+  },
+  "ok": true
+}
