@@ -11,14 +11,19 @@ function Write-UpdateStatus($status) {
     if (Test-Path -LiteralPath $statusPath) { [System.IO.File]::Replace($temporary, $statusPath, ($statusPath + '.previous')) } else { [System.IO.File]::Move($temporary, $statusPath) }
 }
 function Invoke-SourceGit([string[]]$GitArguments) {
-    $previousPreference = $ErrorActionPreference
-    $ErrorActionPreference = 'Continue'
-    try {
-        $output = @(& git -C $script:sourceRoot @GitArguments 2>&1 | ForEach-Object { $_.ToString() })
-        $gitExitCode = $LASTEXITCODE
-    } finally { $ErrorActionPreference = $previousPreference }
-    if ($gitExitCode -ne 0) { throw ('git ' + ($GitArguments -join ' ') + ' failed: ' + ($output -join [Environment]::NewLine)) }
-    return $output -join [Environment]::NewLine
+    for ($attempt = 1; $attempt -le 3; $attempt++) {
+        $previousPreference = $ErrorActionPreference
+        $ErrorActionPreference = 'Continue'
+        try {
+            $output = @(& git -C $script:sourceRoot @GitArguments 2>&1 | ForEach-Object { $_.ToString() })
+            $gitExitCode = $LASTEXITCODE
+        } finally { $ErrorActionPreference = $previousPreference }
+        $text = $output -join [Environment]::NewLine
+        if ($gitExitCode -eq 0) { return $text }
+        $retryable = $GitArguments[0] -in @('ls-remote', 'fetch') -and $text -match 'unable to access|Could not resolve|Empty reply|timed out|reset|TLS|SSL|Failed to connect'
+        if (!$retryable -or $attempt -eq 3) { throw ('git ' + ($GitArguments -join ' ') + ' failed: ' + $text) }
+        Start-Sleep -Seconds $attempt
+    }
 }
 try {
     if ($CheckOnly -and $Local) { throw 'CheckOnly and Local are mutually exclusive' }
@@ -68,7 +73,7 @@ try {
         $trackingRef = 'origin/' + $record.branch
         try { $null = Invoke-SourceGit -GitArguments @('merge-base', '--is-ancestor', $originalCommit, $trackingRef) }
         catch { throw 'Source has unpushed or diverged commits; refusing to replace local history' }
-        $null = Invoke-SourceGit -GitArguments @('pull', '--ff-only', 'origin', $record.branch)
+        $null = Invoke-SourceGit -GitArguments @('merge', '--ff-only', $trackingRef)
     }
     $installer = Join-Path $sourceRoot 'scripts\install.ps1'
     if (!(Test-Path -LiteralPath $installer -PathType Leaf)) { throw 'Source updater is missing install.ps1' }

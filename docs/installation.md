@@ -27,7 +27,7 @@ fantasy-lcsc update --local
 & 'D:\Agent\LocalManager\FantasyLCSC\update.ps1'
 ```
 
-默认更新从记录的 origin/分支获取最新提交，使用安装目录下的独立 `source/` 仓库构建；首次自动克隆，后续只允许 `git pull --ff-only`。检查原源码与更新副本的工作区、分支、origin 和提交祖先关系，不覆盖修改或超前/分叉提交。不会强制重置、丢弃本地修改或切换分支，也不会更新用户工作区的 Git 元数据。成功后安装记录指向这一固定源码副本。
+默认更新从记录的 origin/分支获取最新提交，使用安装目录下的独立 `source/` 仓库构建；首次自动克隆，后续 fetch 后只允许 merge --ff-only。检查原源码与更新副本的工作区、分支、origin 和提交祖先关系，不覆盖修改或超前/分叉提交。不会强制重置、丢弃本地修改或切换分支，也不会更新用户工作区的 Git 元数据。成功后安装记录指向这一固定源码副本。ls-remote/fetch 的临时网络故障最多重试三次，不重试合并或安装写入。
 
 检查命令使用只读 `git ls-remote`，不写入本地 Git 引用或安装文件。远端提交尚未下载时，ahead/behind 返回 null；update_available 仍能准确比较提交。
 
