@@ -38,6 +38,6 @@ $lcsc = 'D:\Agent\LocalManager\FantasyLCSC\fantasy-lcsc.exe'
 & 'D:\Agent\LocalManager\FantasyLCSC\update.ps1'
 ```
 
-默认更新要求记录的源码仓库位于预期分支、origin 未改变、工作区干净，并只允许 fast-forward 拉取，不丢弃修改或强制重置。源码更新需要 Git、Rust 和 MSVC 构建工具；在当前机器它们已经安装。`--local` 是显式从当前源码重建的模式，允许未提交修改。
+检查更新通过只读 ls-remote 查询，不写工作区 Git 元数据。默认更新要求记录的源码仓库位于预期分支、origin 未改变、工作区干净且提交在远端历史中；在固定安装目录的独立 `source/` 副本中克隆/fast-forward 拉取与构建，不修改用户工作区，也不丢弃副本的修改或强制重置。成功后安装记录指向固定源码副本。源码更新需要 Git、Rust 和 MSVC 构建工具；在当前机器它们已经安装。`--local` 明确从记录的当前源码重建，允许未提交修改。
 
 `update` 返回 started 只代表 updater 已启动；最终结果查看安装目录 `update-status.json` 与 `update.log`。成功更新同时安装 CLI 和本仓库的 easyeda-engineering skill；不会新增采购或 EDA 编辑动作。配置记录了 skill 安装目录；两个原 skill 的完整备份保存在固定安装目录的 `skill-backups/`，不继续作为重复发现的入口。

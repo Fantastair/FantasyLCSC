@@ -41,16 +41,33 @@ try {
         }
     }
     if (!$Local) {
-        $null = Invoke-SourceGit -GitArguments @('fetch', '--no-tags', 'origin', $record.branch)
-        $trackingRef = 'origin/' + $record.branch
-        $remoteCommit = (Invoke-SourceGit -GitArguments @('rev-parse', $trackingRef)).Trim()
-        $counts = ((Invoke-SourceGit -GitArguments @('rev-list', '--left-right', '--count', ('HEAD...' + $trackingRef))).Trim() -split '\s+')
+        # ls-remote only reads remote refs; checking does not write FETCH_HEAD.
+        $remoteRef = 'refs/heads/' + $record.branch
+        $remoteLine = (Invoke-SourceGit -GitArguments @('ls-remote', '--exit-code', 'origin', $remoteRef)).Trim()
+        $remoteCommit = ($remoteLine -split '\s+')[0]
+        $originalCommit = (Invoke-SourceGit -GitArguments @('rev-parse', 'HEAD')).Trim()
         if ($CheckOnly) {
-            $result = [ordered]@{ status = 'checked'; installed_commit = $record.source_commit; source_commit = (Invoke-SourceGit -GitArguments @('rev-parse', 'HEAD')).Trim(); remote_commit = $remoteCommit; source_ahead = [int]$counts[0]; source_behind = [int]$counts[1]; update_available = $record.source_commit -ne $remoteCommit; branch = $record.branch }
+            $ahead = $null; $behind = $null
+            try {
+                $counts = ((Invoke-SourceGit -GitArguments @('rev-list', '--left-right', '--count', ('HEAD...' + $remoteCommit))).Trim() -split '\s+')
+                $ahead = [int]$counts[0]; $behind = [int]$counts[1]
+            } catch { } # The remote commit may not yet exist in the local object store.
+            $result = [ordered]@{ status = 'checked'; installed_commit = $record.source_commit; source_commit = $originalCommit; remote_commit = $remoteCommit; source_ahead = $ahead; source_behind = $behind; update_available = $record.source_commit -ne $remoteCommit; branch = $record.branch }
             $result | ConvertTo-Json -Depth 6
             exit 0
         }
-        if ([int]$counts[0] -gt 0) { throw 'Source has unpushed or diverged commits; refusing to replace local history' }
+        # Keep updater writes outside the user's working repository.
+        $managedSource = Join-Path $installRoot 'source'
+        if (!(Test-Path -LiteralPath $managedSource)) {
+            $null = Invoke-SourceGit -GitArguments @('clone', '--branch', $record.branch, '--single-branch', $record.remote, $managedSource)
+        }
+        $script:sourceRoot = (Resolve-Path -LiteralPath $managedSource).Path
+        if ((Invoke-SourceGit -GitArguments @('remote', 'get-url', 'origin')).Trim() -ne $record.remote -or (Invoke-SourceGit -GitArguments @('branch', '--show-current')).Trim() -ne $record.branch) { throw 'Managed source origin or branch changed' }
+        if ((Invoke-SourceGit -GitArguments @('status', '--porcelain')).Trim()) { throw 'Managed source has local changes; refusing to overwrite them' }
+        $null = Invoke-SourceGit -GitArguments @('fetch', '--no-tags', 'origin', $record.branch)
+        $trackingRef = 'origin/' + $record.branch
+        try { $null = Invoke-SourceGit -GitArguments @('merge-base', '--is-ancestor', $originalCommit, $trackingRef) }
+        catch { throw 'Source has unpushed or diverged commits; refusing to replace local history' }
         $null = Invoke-SourceGit -GitArguments @('pull', '--ff-only', 'origin', $record.branch)
     }
     $installer = Join-Path $sourceRoot 'scripts\install.ps1'
