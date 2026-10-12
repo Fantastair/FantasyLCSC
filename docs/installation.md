@@ -35,4 +35,4 @@ fantasy-lcsc update --local
 
 Windows 不能替换正在运行的 EXE，因此命令启动隐藏 updater 后返回 started，updater 等待调用进程退出再更新。最终状态保存在 `update-status.json`，后台输出在 `update.log`；失败通过 failed 状态和错误信息说明。更新互斥锁在进程退出时释放，不会因进程异常留下永久占用的锁。
 
-软件替换使用同目录临时 EXE 和原子文件替换；旧文件保留为 `fantasy-lcsc.previous.exe`。构建失败不会替换 EXE。技能和软件备份可按需恢复；不执行采购、云端 EDA 编辑或服务重启。
+软件替换使用同目录临时 EXE 和原子文件替换；旧文件保留为 `fantasy-lcsc.previous.exe`。编译临时目录使用安装目录内 `.build-tmp/`，只在本次构建进程中设置 TEMP/TMP，结束后恢复，不修改系统环境变量。构建失败不会替换 EXE。技能和软件备份可按需恢复；不执行采购、云端 EDA 编辑或服务重启。

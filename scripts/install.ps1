@@ -20,11 +20,22 @@ if ($installRoot.TrimEnd('\') -eq [System.IO.Path]::GetPathRoot($installRoot).Tr
 $sourceSkill = Join-Path $sourceRoot 'skills\easyeda-engineering'
 if (!(Test-Path -LiteralPath (Join-Path $sourceRoot 'Cargo.toml')) -or !(Test-Path -LiteralPath (Join-Path $sourceSkill 'SKILL.md'))) { throw 'Source repository is incomplete' }
 if (!$SkipBuild) {
+    $buildTemporaryDirectory = Join-Path $installRoot '.build-tmp'
+    New-Item -ItemType Directory -Force -Path $buildTemporaryDirectory | Out-Null
+    $previousBuildTemp = $env:TEMP
+    $previousBuildTmp = $env:TMP
     Push-Location $sourceRoot
     try {
+        # The MSVC linker needs a writable temp directory even in a restricted host.
+        $env:TEMP = $buildTemporaryDirectory
+        $env:TMP = $buildTemporaryDirectory
         & cargo build --release --locked
         if ($LASTEXITCODE -ne 0) { throw 'Rust build failed; installed files were not changed' }
-    } finally { Pop-Location }
+    } finally {
+        $env:TEMP = $previousBuildTemp
+        $env:TMP = $previousBuildTmp
+        Pop-Location
+    }
 }
 $candidate = Join-Path $sourceRoot 'target\release\fantasy-lcsc.exe'
 if (!(Test-Path -LiteralPath $candidate -PathType Leaf)) { throw 'CLI executable is missing; build first' }
