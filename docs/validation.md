@@ -38,3 +38,5 @@
 在工作区隔离安装目录实测安装和 `update --local`：后台 updater 等待调用进程退出，Windows PowerShell 5.1 成功构建并原子替换 EXE，最终状态为 complete，安装文件 SHA-256 与构建结果一致。两个旧 skill 的测试备份内容完整保留，新的合并 skill 同步更新。源码未提交时普通更新拒绝执行并报告 failed，不改变已安装 EXE。
 
 合并 skill 通过 skill-creator 的 quick_validate 校验；全部本地 Markdown 引用可解析。个人设计规则与原 skill 正文逐字比对一致（仅调整相对链接），接入脚本与证据原样保留，新增选型与更新使用说明。
+
+固定 D 盘正式安装实测：只读远端检查成功；前台 updater 从 GitHub 获取最新提交，在 `D:/Agent/LocalManager/FantasyLCSC/source` 构建并同步更新程序和 skill，最终状态 complete。当前 Codex 沙箱的后台进程受到 skill 目录写保护，此限制已写入安装与技能说明；通过审批后的前台 updater 完成验证。用户 PATH 已追加固定目录，旧两项 skill 的真实完整备份已保留。

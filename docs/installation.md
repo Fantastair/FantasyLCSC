@@ -35,4 +35,6 @@ fantasy-lcsc update --local
 
 Windows 不能替换正在运行的 EXE，因此命令启动隐藏 updater 后返回 started，updater 等待调用进程退出再更新。最终状态保存在 `update-status.json`，后台输出在 `update.log`；失败通过 failed 状态和错误信息说明。更新互斥锁在进程退出时释放，不会因进程异常留下永久占用的锁。
 
+在 Codex 的受限环境中，后台进程可能无法写入 `.codex/skills`。这类失败不会当作更新成功；通过运行环境正常的审批机制执行前台 `update.ps1` 可完成已经授权的同步。不修改目录 ACL，也不反复重试权限失败。
+
 软件替换使用同目录临时 EXE 和原子文件替换；旧文件保留为 `fantasy-lcsc.previous.exe`。编译临时目录使用安装目录内 `.build-tmp/`，只在本次构建进程中设置 TEMP/TMP，结束后恢复，不修改系统环境变量。构建失败不会替换 EXE。技能和软件备份可按需恢复；不执行采购、云端 EDA 编辑或服务重启。
